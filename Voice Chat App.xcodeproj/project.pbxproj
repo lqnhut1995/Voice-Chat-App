@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5173722123278B007880C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5173712123278B007880C3 /* AppDelegate.swift */; };
+		EB5173742123278B007880C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5173732123278B007880C3 /* ViewController.swift */; };
+		EB5173772123278B007880C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5173752123278B007880C3 /* Main.storyboard */; };
+		EB51737A2123278B007880C3 /* Voice_Chat_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB5173782123278B007880C3 /* Voice_Chat_App.xcdatamodeld */; };
+		EB51737C2123278B007880C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB51737B2123278B007880C3 /* Assets.xcassets */; };
+		EB51737F2123278B007880C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB51737D2123278B007880C3 /* LaunchScreen.storyboard */; };
+		EB51738A2123278C007880C3 /* Voice_Chat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5173892123278C007880C3 /* Voice_Chat_AppTests.swift */; };
+		EB5173952123278C007880C3 /* Voice_Chat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5173942123278C007880C3 /* Voice_Chat_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB5173862123278C007880C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5173662123278B007880C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB51736D2123278B007880C3;
+			remoteInfo = "Voice Chat App";
+		};
+		EB5173912123278C007880C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5173662123278B007880C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB51736D2123278B007880C3;
+			remoteInfo = "Voice Chat App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB51736E2123278B007880C3 /* Voice Chat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Chat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5173712123278B007880C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB5173732123278B007880C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB5173762123278B007880C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB5173792123278B007880C3 /* Voice_Chat_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voice_Chat_App.xcdatamodel; sourceTree = "<group>"; };
+		EB51737B2123278B007880C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB51737E2123278B007880C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB5173802123278B007880C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5173852123278C007880C3 /* Voice Chat AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice Chat AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5173892123278C007880C3 /* Voice_Chat_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_Chat_AppTests.swift; sourceTree = "<group>"; };
+		EB51738B2123278C007880C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5173902123278C007880C3 /* Voice Chat AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice Chat AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5173942123278C007880C3 /* Voice_Chat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_Chat_AppUITests.swift; sourceTree = "<group>"; };
+		EB5173962123278C007880C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB51736B2123278B007880C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5173822123278C007880C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51738D2123278C007880C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5173652123278B007880C3 = {
+			isa = PBXGroup;
+			children = (
+				EB5173702123278B007880C3 /* Voice Chat App */,
+				EB5173882123278C007880C3 /* Voice Chat AppTests */,
+				EB5173932123278C007880C3 /* Voice Chat AppUITests */,
+				EB51736F2123278B007880C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB51736F2123278B007880C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB51736E2123278B007880C3 /* Voice Chat App.app */,
+				EB5173852123278C007880C3 /* Voice Chat AppTests.xctest */,
+				EB5173902123278C007880C3 /* Voice Chat AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5173702123278B007880C3 /* Voice Chat App */ = {
+			isa = PBXGroup;
+			children = (
+				EB5173712123278B007880C3 /* AppDelegate.swift */,
+				EB5173732123278B007880C3 /* ViewController.swift */,
+				EB5173752123278B007880C3 /* Main.storyboard */,
+				EB51737B2123278B007880C3 /* Assets.xcassets */,
+				EB51737D2123278B007880C3 /* LaunchScreen.storyboard */,
+				EB5173802123278B007880C3 /* Info.plist */,
+				EB5173782123278B007880C3 /* Voice_Chat_App.xcdatamodeld */,
+			);
+			path = "Voice Chat App";
+			sourceTree = "<group>";
+		};
+		EB5173882123278C007880C3 /* Voice Chat AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5173892123278C007880C3 /* Voice_Chat_AppTests.swift */,
+				EB51738B2123278C007880C3 /* Info.plist */,
+			);
+			path = "Voice Chat AppTests";
+			sourceTree = "<group>";
+		};
+		EB5173932123278C007880C3 /* Voice Chat AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5173942123278C007880C3 /* Voice_Chat_AppUITests.swift */,
+				EB5173962123278C007880C3 /* Info.plist */,
+			);
+			path = "Voice Chat AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB51736D2123278B007880C3 /* Voice Chat App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5173992123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat App" */;
+			buildPhases = (
+				EB51736A2123278B007880C3 /* Sources */,
+				EB51736B2123278B007880C3 /* Frameworks */,
+				EB51736C2123278B007880C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Chat App";
+			productName = "Voice Chat App";
+			productReference = EB51736E2123278B007880C3 /* Voice Chat App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB5173842123278C007880C3 /* Voice Chat AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB51739C2123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat AppTests" */;
+			buildPhases = (
+				EB5173812123278C007880C3 /* Sources */,
+				EB5173822123278C007880C3 /* Frameworks */,
+				EB5173832123278C007880C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5173872123278C007880C3 /* PBXTargetDependency */,
+			);
+			name = "Voice Chat AppTests";
+			productName = "Voice Chat AppTests";
+			productReference = EB5173852123278C007880C3 /* Voice Chat AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB51738F2123278C007880C3 /* Voice Chat AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB51739F2123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat AppUITests" */;
+			buildPhases = (
+				EB51738C2123278C007880C3 /* Sources */,
+				EB51738D2123278C007880C3 /* Frameworks */,
+				EB51738E2123278C007880C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5173922123278C007880C3 /* PBXTargetDependency */,
+			);
+			name = "Voice Chat AppUITests";
+			productName = "Voice Chat AppUITests";
+			productReference = EB5173902123278C007880C3 /* Voice Chat AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5173662123278B007880C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hell Rocky";
+				TargetAttributes = {
+					EB51736D2123278B007880C3 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					EB5173842123278C007880C3 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EB51736D2123278B007880C3;
+					};
+					EB51738F2123278C007880C3 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EB51736D2123278B007880C3;
+					};
+				};
+			};
+			buildConfigurationList = EB5173692123278B007880C3 /* Build configuration list for PBXProject "Voice Chat App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5173652123278B007880C3;
+			productRefGroup = EB51736F2123278B007880C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB51736D2123278B007880C3 /* Voice Chat App */,
+				EB5173842123278C007880C3 /* Voice Chat AppTests */,
+				EB51738F2123278C007880C3 /* Voice Chat AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB51736C2123278B007880C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51737F2123278B007880C3 /* LaunchScreen.storyboard in Resources */,
+				EB51737C2123278B007880C3 /* Assets.xcassets in Resources */,
+				EB5173772123278B007880C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5173832123278C007880C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51738E2123278C007880C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB51736A2123278B007880C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5173742123278B007880C3 /* ViewController.swift in Sources */,
+				EB5173722123278B007880C3 /* AppDelegate.swift in Sources */,
+				EB51737A2123278B007880C3 /* Voice_Chat_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5173812123278C007880C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB51738A2123278C007880C3 /* Voice_Chat_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB51738C2123278C007880C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5173952123278C007880C3 /* Voice_Chat_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB5173872123278C007880C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB51736D2123278B007880C3 /* Voice Chat App */;
+			targetProxy = EB5173862123278C007880C3 /* PBXContainerItemProxy */;
+		};
+		EB5173922123278C007880C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB51736D2123278B007880C3 /* Voice Chat App */;
+			targetProxy = EB5173912123278C007880C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB5173752123278B007880C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5173762123278B007880C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB51737D2123278B007880C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB51737E2123278B007880C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB5173972123278C007880C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB5173982123278C007880C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB51739A2123278C007880C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB51739B2123278C007880C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB51739D2123278C007880C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Chat App.app/Voice Chat App";
+			};
+			name = Debug;
+		};
+		EB51739E2123278C007880C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Chat App.app/Voice Chat App";
+			};
+			name = Release;
+		};
+		EB5173A02123278C007880C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voice Chat App";
+			};
+			name = Debug;
+		};
+		EB5173A12123278C007880C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JU4T2A84Y;
+				INFOPLIST_FILE = "Voice Chat AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HellProduction.Voice-Chat-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voice Chat App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5173692123278B007880C3 /* Build configuration list for PBXProject "Voice Chat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5173972123278C007880C3 /* Debug */,
+				EB5173982123278C007880C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5173992123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51739A2123278C007880C3 /* Debug */,
+				EB51739B2123278C007880C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB51739C2123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB51739D2123278C007880C3 /* Debug */,
+				EB51739E2123278C007880C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB51739F2123278C007880C3 /* Build configuration list for PBXNativeTarget "Voice Chat AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5173A02123278C007880C3 /* Debug */,
+				EB5173A12123278C007880C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB5173782123278B007880C3 /* Voice_Chat_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB5173792123278B007880C3 /* Voice_Chat_App.xcdatamodel */,
+			);
+			currentVersion = EB5173792123278B007880C3 /* Voice_Chat_App.xcdatamodel */;
+			path = Voice_Chat_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB5173662123278B007880C3 /* Project object */;
+}
