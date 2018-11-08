@@ -7,7 +7,25 @@
 		<key>Voice Chat App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EB51736D2123278B007880C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB5173842123278C007880C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB51738F2123278C007880C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
